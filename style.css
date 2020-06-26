@@ -1,0 +1,66 @@
+body{
+    text-align:center;
+    padding:200px;
+}
+
+.containet{
+    width:400px;
+    height:420px;
+    border:2px solid black;
+    border-radius:20px;
+    background-color:black;
+
+}
+input{
+    text-align:right;
+    border:2px solid black;
+    width:360px;
+    margin:15px 2px 10px 2px ;
+    height:50px;
+    border-radius:20px;
+    font-size:xxx-large;
+    padding-top:15px;
+    background-color:white;
+}
+.calckeys{
+    width:380px;
+    height:300px;
+    margin:10px 3px 2;
+    align-content:center;
+  
+}
+
+button{
+    width:80px;
+    height:50px;
+    padding:5px;
+    border:2px solid black;
+}
+
+.num, .decimal, .clear, .operator{
+    border:2px solid black;
+    border-radius:20px;
+    margin:4px;
+    font-size:xx-large;
+    cursor: pointer;
+}
+
+#equal{
+    width:370px;
+    background-color:gray;
+    margin-top:25px
+}
+#equal:hover{
+    background-color:darkslategrey;
+
+}
+
+
+.clear{
+    background-color:red;
+}
+
+.num:hover{
+
+    background-color:lightslategrey;
+}
